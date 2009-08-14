@@ -1,0 +1,12 @@
+#define BundleIdentifier								@"com.sweetpproductions.SafariCookies"
+#define SCPreferencesDomainNameKey						@"com.apple.Safari"
+#define SCCookiesPath									@"~/Library/Cookies/Cookies.plist"
+
+#define SCPreferencesCookieAcceptPolicy					@"SCcookieAcceptPolicy"
+#define SCPreferencesAcceptCookieDomainsKey				@"SCacceptCookieDomains"
+#define SCPreferencesRemoveNonFavoritesWhenQuitting		@"SCremoveNonFavoritesWhenQuitting"
+#define SCPreferencesShouldLogActivity					@"SCenableLogging"
+#define SCPreferencesTabStateKey						@"SCTabState"
+#define SCPreferencesAlertsKey							@"SCDontShowAlert"
+#define SCPreferencesExportAlertKey						@"SCDontShowExportAlert"
+#define SCPreferencesImportAlertKey						@"SCDontShowImportAlert"

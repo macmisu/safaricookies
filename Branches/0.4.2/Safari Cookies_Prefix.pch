@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Safari Cookies' target in the 'Safari Cookies' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

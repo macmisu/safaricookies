@@ -1,0 +1,16 @@
+-finish import of favorites
+
+-fix incompatability with glims
+
+-clean up the cookiesOutlineViewUI (remove the disclosure triangles for cookies, and domains with no current cookies)
+ remove favorite checkboxes for cookies.
+ 
+-add search
+-add sparkle
+
+
+Maybe.....
+-re-add the "only accept cookies for favorite domains" option
+-blacklist
+
+-remove poseasclass, and implement swizzle methods, for Snow Leopard support.

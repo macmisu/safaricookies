@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4549E7640F8AE2FC0027F00F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4549E7630F8AE2FC0027F00F /* Credits.rtf */; };
+		454C866A0F5BA65E00421DDD /* SafariCookies.png in Resources */ = {isa = PBXBuildFile; fileRef = 454C86690F5BA65E00421DDD /* SafariCookies.png */; };
+		4555A4780F57A08400BEC11E /* BooleanToStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A4750F57A08400BEC11E /* BooleanToStringTransformer.m */; };
+		4555A4790F57A08400BEC11E /* BundleUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A4770F57A08400BEC11E /* BundleUserDefaults.m */; };
+		4555A47E0F57A08D00BEC11E /* CookieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A47B0F57A08D00BEC11E /* CookieNode.m */; };
+		4555A47F0F57A08D00BEC11E /* CookiesOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A47D0F57A08D00BEC11E /* CookiesOutlineViewController.m */; };
+		4555A4850F57A09A00BEC11E /* NSHTTPCookieStorageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A4820F57A09A00BEC11E /* NSHTTPCookieStorageAdditions.m */; };
+		4555A4900F57A0B100BEC11E /* SafariCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A4870F57A0B100BEC11E /* SafariCookies.m */; };
+		4555A4910F57A0B100BEC11E /* SCLogFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A4890F57A0B100BEC11E /* SCLogFile.m */; };
+		4555A4920F57A0B100BEC11E /* SCPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A48B0F57A0B100BEC11E /* SCPreferences.m */; };
+		4555A4940F57A0B100BEC11E /* SPNSHTTPCookieStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A48F0F57A0B100BEC11E /* SPNSHTTPCookieStorage.m */; };
+		4555A51C0F57AA0200BEC11E /* SCPreferencesModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4555A51B0F57AA0200BEC11E /* SCPreferencesModule.m */; };
+		45CCBB520F56193C00D9E267 /* uninstall.sh in Resources */ = {isa = PBXBuildFile; fileRef = 45CCBB510F56193C00D9E267 /* uninstall.sh */; };
+		45CCBB7D0F561B4700D9E267 /* SCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CCBB7C0F561B4700D9E267 /* SCHelper.m */; };
+		5B01F3570CD2613100FA4A3C /* SCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01F3560CD2613100FA4A3C /* SCController.m */; };
+		5B1D86630CDCEE380096C72B /* post_install.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D86620CDCEE380096C72B /* post_install.sh */; };
+		5BA3D5FA0CD1EFF100DBD48A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA3D5F90CD1EFF100DBD48A /* WebKit.framework */; };
+		5BA3D6750CD1F75D00DBD48A /* SCPreferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3D6740CD1F75D00DBD48A /* SCPreferences.nib */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* Safari Cookies_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Safari Cookies_Prefix.pch"; sourceTree = "<group>"; };
+		4549E7630F8AE2FC0027F00F /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		454C86690F5BA65E00421DDD /* SafariCookies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SafariCookies.png; sourceTree = "<group>"; };
+		4555A4740F57A08400BEC11E /* BooleanToStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooleanToStringTransformer.h; sourceTree = "<group>"; };
+		4555A4750F57A08400BEC11E /* BooleanToStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooleanToStringTransformer.m; sourceTree = "<group>"; };
+		4555A4760F57A08400BEC11E /* BundleUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleUserDefaults.h; sourceTree = "<group>"; };
+		4555A4770F57A08400BEC11E /* BundleUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleUserDefaults.m; sourceTree = "<group>"; };
+		4555A47A0F57A08D00BEC11E /* CookieNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookieNode.h; sourceTree = "<group>"; };
+		4555A47B0F57A08D00BEC11E /* CookieNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookieNode.m; sourceTree = "<group>"; };
+		4555A47C0F57A08D00BEC11E /* CookiesOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookiesOutlineViewController.h; sourceTree = "<group>"; };
+		4555A47D0F57A08D00BEC11E /* CookiesOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookiesOutlineViewController.m; sourceTree = "<group>"; };
+		4555A4800F57A09A00BEC11E /* NSHTTPCookieDiskStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSHTTPCookieDiskStorage.h; sourceTree = "<group>"; };
+		4555A4810F57A09A00BEC11E /* NSHTTPCookieStorageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSHTTPCookieStorageAdditions.h; sourceTree = "<group>"; };
+		4555A4820F57A09A00BEC11E /* NSHTTPCookieStorageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSHTTPCookieStorageAdditions.m; sourceTree = "<group>"; };
+		4555A4830F57A09A00BEC11E /* NSHTTPCookieStoragePriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSHTTPCookieStoragePriv.h; sourceTree = "<group>"; };
+		4555A4840F57A09A00BEC11E /* NSLocalizedStringFromThisBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLocalizedStringFromThisBundle.h; sourceTree = "<group>"; };
+		4555A4860F57A0B100BEC11E /* SafariCookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariCookies.h; sourceTree = "<group>"; };
+		4555A4870F57A0B100BEC11E /* SafariCookies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariCookies.m; sourceTree = "<group>"; };
+		4555A4880F57A0B100BEC11E /* SCLogFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLogFile.h; sourceTree = "<group>"; };
+		4555A4890F57A0B100BEC11E /* SCLogFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLogFile.m; sourceTree = "<group>"; };
+		4555A48A0F57A0B100BEC11E /* SCPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPreferences.h; sourceTree = "<group>"; };
+		4555A48B0F57A0B100BEC11E /* SCPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPreferences.m; sourceTree = "<group>"; };
+		4555A48E0F57A0B100BEC11E /* SPNSHTTPCookieStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNSHTTPCookieStorage.h; sourceTree = "<group>"; };
+		4555A48F0F57A0B100BEC11E /* SPNSHTTPCookieStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNSHTTPCookieStorage.m; sourceTree = "<group>"; };
+		4555A51A0F57AA0200BEC11E /* SCPreferencesModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPreferencesModule.h; sourceTree = "<group>"; };
+		4555A51B0F57AA0200BEC11E /* SCPreferencesModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPreferencesModule.m; sourceTree = "<group>"; };
+		45CCBB510F56193C00D9E267 /* uninstall.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uninstall.sh; sourceTree = "<group>"; };
+		45CCBB7B0F561B4700D9E267 /* SCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHelper.h; sourceTree = "<group>"; };
+		45CCBB7C0F561B4700D9E267 /* SCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHelper.m; sourceTree = "<group>"; };
+		5B01F3550CD2613100FA4A3C /* SCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCController.h; sourceTree = "<group>"; };
+		5B01F3560CD2613100FA4A3C /* SCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCController.m; sourceTree = "<group>"; };
+		5B01F3650CD2649C00FA4A3C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5B1D825D0CDBCF5F0096C72B /* Info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info; sourceTree = "<group>"; };
+		5B1D86620CDCEE380096C72B /* post_install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = post_install.sh; sourceTree = "<group>"; };
+		5BA3D5550CD1EFA200DBD48A /* Safari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Safari.h; sourceTree = "<group>"; };
+		5BA3D5F90CD1EFF100DBD48A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		5BA3D6540CD1F60800DBD48A /* NSPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPreferences.h; sourceTree = "<group>"; };
+		5BA3D6740CD1F75D00DBD48A /* SCPreferences.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SCPreferences.nib; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* Safari Cookies.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari Cookies.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				5BA3D5FA0CD1EFF100DBD48A /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Safari Cookies */ = {
+			isa = PBXGroup;
+			children = (
+				32C88E010371C26100C91783 /* Other Sources */,
+				08FB77AFFE84173DC02AAC07 /* Interface */,
+				4555A40D0F579F6600BEC11E /* Cookie management */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Safari Cookies";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4549E7630F8AE2FC0027F00F /* Credits.rtf */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				5B1D825D0CDBCF5F0096C72B /* Info */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				454C86690F5BA65E00421DDD /* SafariCookies.png */,
+				5B01F3550CD2613100FA4A3C /* SCController.h */,
+				5B01F3560CD2613100FA4A3C /* SCController.m */,
+				4555A51A0F57AA0200BEC11E /* SCPreferencesModule.h */,
+				4555A51B0F57AA0200BEC11E /* SCPreferencesModule.m */,
+				5BA3D6740CD1F75D00DBD48A /* SCPreferences.nib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3D5F90CD1EFF100DBD48A /* WebKit.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* Safari Cookies.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5B01F3650CD2649C00FA4A3C /* Constants.h */,
+				45CCBB7B0F561B4700D9E267 /* SCHelper.h */,
+				45CCBB7C0F561B4700D9E267 /* SCHelper.m */,
+				5BA3D6540CD1F60800DBD48A /* NSPreferences.h */,
+				5BA3D5550CD1EFA200DBD48A /* Safari.h */,
+				32DBCF630370AF2F00C91783 /* Safari Cookies_Prefix.pch */,
+				45CCBB510F56193C00D9E267 /* uninstall.sh */,
+				5B1D86620CDCEE380096C72B /* post_install.sh */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4555A40D0F579F6600BEC11E /* Cookie management */ = {
+			isa = PBXGroup;
+			children = (
+				4555A4740F57A08400BEC11E /* BooleanToStringTransformer.h */,
+				4555A4750F57A08400BEC11E /* BooleanToStringTransformer.m */,
+				4555A4760F57A08400BEC11E /* BundleUserDefaults.h */,
+				4555A4770F57A08400BEC11E /* BundleUserDefaults.m */,
+				4555A47A0F57A08D00BEC11E /* CookieNode.h */,
+				4555A47B0F57A08D00BEC11E /* CookieNode.m */,
+				4555A47C0F57A08D00BEC11E /* CookiesOutlineViewController.h */,
+				4555A47D0F57A08D00BEC11E /* CookiesOutlineViewController.m */,
+				4555A4800F57A09A00BEC11E /* NSHTTPCookieDiskStorage.h */,
+				4555A4810F57A09A00BEC11E /* NSHTTPCookieStorageAdditions.h */,
+				4555A4820F57A09A00BEC11E /* NSHTTPCookieStorageAdditions.m */,
+				4555A4830F57A09A00BEC11E /* NSHTTPCookieStoragePriv.h */,
+				4555A4840F57A09A00BEC11E /* NSLocalizedStringFromThisBundle.h */,
+				4555A4860F57A0B100BEC11E /* SafariCookies.h */,
+				4555A4870F57A0B100BEC11E /* SafariCookies.m */,
+				4555A4880F57A0B100BEC11E /* SCLogFile.h */,
+				4555A4890F57A0B100BEC11E /* SCLogFile.m */,
+				4555A48A0F57A0B100BEC11E /* SCPreferences.h */,
+				4555A48B0F57A0B100BEC11E /* SCPreferences.m */,
+				4555A48E0F57A0B100BEC11E /* SPNSHTTPCookieStorage.h */,
+				4555A48F0F57A0B100BEC11E /* SPNSHTTPCookieStorage.m */,
+			);
+			name = "Cookie management";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* Safari Cookies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Safari Cookies" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				5B1D86510CDCEBCB0096C72B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safari Cookies";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Safari Cookies";
+			productReference = 8D5B49B6048680CD000E48DA /* Safari Cookies.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Safari Cookies" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* Safari Cookies */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* Safari Cookies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				5BA3D6750CD1F75D00DBD48A /* SCPreferences.nib in Resources */,
+				5B1D86630CDCEE380096C72B /* post_install.sh in Resources */,
+				45CCBB520F56193C00D9E267 /* uninstall.sh in Resources */,
+				454C866A0F5BA65E00421DDD /* SafariCookies.png in Resources */,
+				4549E7640F8AE2FC0027F00F /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B1D86510CDCEBCB0096C72B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $CONFIGURATION = \"Release\" ]; then\n\tmkdir \"$CONFIGURATION_BUILD_DIR/Safari Cookies\"\n\trm -f \"$CONFIGURATION_BUILD_DIR/Safari Cookies/Info\"\n\tcp \"$PROJECT_DIR/Info\" \"$CONFIGURATION_BUILD_DIR/Safari Cookies\"\n\trm -rf \"$CONFIGURATION_BUILD_DIR/Safari Cookies/$FULL_PRODUCT_NAME\"\n\tmv \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME\" \"$CONFIGURATION_BUILD_DIR/Safari Cookies\"\n\n\n\tsudo mkdir /Library/InputManagers/Safari\\ Cookies\n\tsudo rm -R /Library/InputManagers/Safari\\ Cookies\n\tsudo cp -R \"$CONFIGURATION_BUILD_DIR/Safari Cookies\" /Library/InputManagers\n\tsudo chown -R root:admin /Library/InputManagers\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B01F3570CD2613100FA4A3C /* SCController.m in Sources */,
+				45CCBB7D0F561B4700D9E267 /* SCHelper.m in Sources */,
+				4555A4780F57A08400BEC11E /* BooleanToStringTransformer.m in Sources */,
+				4555A4790F57A08400BEC11E /* BundleUserDefaults.m in Sources */,
+				4555A47E0F57A08D00BEC11E /* CookieNode.m in Sources */,
+				4555A47F0F57A08D00BEC11E /* CookiesOutlineViewController.m in Sources */,
+				4555A4850F57A09A00BEC11E /* NSHTTPCookieStorageAdditions.m in Sources */,
+				4555A4900F57A0B100BEC11E /* SafariCookies.m in Sources */,
+				4555A4910F57A0B100BEC11E /* SCLogFile.m in Sources */,
+				4555A4920F57A0B100BEC11E /* SCPreferences.m in Sources */,
+				4555A4940F57A0B100BEC11E /* SPNSHTTPCookieStorage.m in Sources */,
+				4555A51C0F57AA0200BEC11E /* SCPreferencesModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Safari Cookies_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "Safari Cookies";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Safari Cookies_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "Safari Cookies";
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.1;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+					"-undefined",
+					dynamic_lookup,
+				);
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CURRENT_PROJECT_VERSION = 0.1.3;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+					"-undefined",
+					dynamic_lookup,
+				);
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Safari Cookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Safari Cookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
