@@ -1,0 +1,20 @@
+#!/bin/sh
+
+
+# remove old Safari Cookies InputManager if it exists
+SAFARICOOKIES_INPUTMANAGER="/Library/InputManagers/Safari Cookies"
+if [ -d "$SAFARICOOKIES_INPUTMANAGER" ]; then
+  rm -rf "$SAFARICOOKIES_INPUTMANAGER"
+fi
+
+
+#find all users
+for arg in `ls /Users`
+do
+
+#remove unused preference for all users, if it exists - ignoring the Shared folder
+if [ $arg != 'Shared' ]; then
+	/usr/bin/su $arg -c "/usr/bin/defaults delete com.apple.Safari SCRemoveGoogleAnalyticsCookiesWhenQuitting"
+fi
+done
+exit 0
