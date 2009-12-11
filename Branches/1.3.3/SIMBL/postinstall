@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+# remove old Safari Cookies InputManager if it exists
+SAFARICOOKIES_INPUTMANAGER="/Library/InputManagers/Safari Cookies"
+if [ -d "$SAFARICOOKIES_INPUTMANAGER" ]; then
+  rm -rf "$SAFARICOOKIES_INPUTMANAGER"
+fi
