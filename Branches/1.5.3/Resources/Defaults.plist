@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SCautomaticUpdating</key>
+	<true/>
+	<key>SCautoKeepTopSites</key>
+	<false/>
+	<key>SCautoKeepHistory</key>
+	<false/>
+	<key>SCautoKeepBookmarks</key>
+	<false/>
+	<key>SCcookieAcceptPolicy</key>
+	<integer>2</integer>
+	<key>SCtabState</key>
+	<integer>0</integer>
+	<key>SCdontShowRemoveAllAlert</key>
+	<false/>
+	<key>SCdontShowRemoveFlashAlert</key>
+	<false/>
+	<key>SCdontShowExportAlert</key>
+	<false/>
+	<key>SCdontShowImportAlert</key>
+	<false/>
+	<key>SCdontShowImportFromBookmarksAlert</key>
+	<false/>
+	<key>SCdontShowImportFromTopSitesAlert</key>
+	<false/>
+	<key>SCdontShowImportFromHistoryAlert</key>
+	<false/>
+	<key>SCremoveGoogleAnalyticsCookiesWhenQuitting</key>
+	<false/>
+	<key>SCautoMode</key>
+	<true/>
+</dict>
+</plist>
